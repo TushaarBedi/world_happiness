@@ -165,17 +165,20 @@ function init(){
     console.log("Bottom 10 Economy List: \n" + bottom_economy_list);
     console.log("Bottom 10 Trust List: \n" + bottom_trust_list);
     
-    // var chart_data = [{
-    //   x: happiness_list,
-    //   y: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
-    //   type: "bar",
-    // }];
-    // var layout = {
-    //   title: "Happiness Report 😀",
-    //   xaxis: { title: "Countries"},
-    //   yaxis: { title: "Score (Normalized 1-10)"}
-    // };
-    // Plotly.plot("plot", chart_data, layout);
+    var chart_data = [{
+      x: happiness_list,
+      y: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+      type: "bar",
+      marker: {
+        color: 'rgb(59, 18, 18)'
+      }
+    }];
+    var layout = {
+      title: "Happiness Report 😀",
+      xaxis: { title: "Countries"},
+      yaxis: { title: "Score (Normalized 1-10)"}
+    };
+    Plotly.plot("plot", chart_data, layout);
   }
   
   //---------------------------------------------------------------------------------------------
