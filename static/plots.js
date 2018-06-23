@@ -174,7 +174,7 @@ function init(){
       }
     }];
     var layout = {
-      title: "Happiness Report 😀",
+      title: "Happiness Report",
       xaxis: { title: "Countries"},
       yaxis: { title: "Score (Normalized 1-10)"}
     };
@@ -222,7 +222,7 @@ function init(){
         }
       }];
       layout = {
-        title: "Top 10 Happiest Nations 😀",
+        title: "Top 10 Happiest Nations",
         xaxis: { title: "Countries"},
         yaxis: { title: "Happiness Score (Normalized 1-10)"}
       };
@@ -238,7 +238,7 @@ function init(){
         }
       }];
       layout = {
-        title: "Top 10 Saddest Nations 😥",
+        title: "Top 10 Saddest Nations",
         xaxis: { title: "Countries",tickangle: 0},
         yaxis: { title: "Sadness Score (Normalized 1-10)"}
       };
